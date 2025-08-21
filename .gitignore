@@ -49,4 +49,10 @@ cache/
 models/
 checkpoints/
 *.model
-*.pkl 
+*.pkl
+
+# ChromaDB - Vector database files (can be large)
+chroma_db/
+chroma_db_streamlit/
+*.db
+*.sqlite3 
